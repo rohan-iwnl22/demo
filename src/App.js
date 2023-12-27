@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Middle from './middle';
+import Middle from './middleContainer/middle';
 
 function App() {
   return (
