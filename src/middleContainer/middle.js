@@ -30,7 +30,7 @@ function Middle() {
                                 <span>
                                     <p>PRN: 122A3041</p>
                                     <p>DOB: 22/07/2004</p>
-                                    <p>Mentor: Prakasan KP</p>
+                                    <p>Mentor: Rohan Prakasan</p>
                                 </span>
                             </Col>
                         </Row>
