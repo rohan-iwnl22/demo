@@ -12,7 +12,7 @@ function Middle() {
                         <div className='cardImg'>
                             <Card.Img
                                 variant="top"
-                                src="https://images.unsplash.com/photo-1635439030842-babc7a7d2a4a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8fA%3D%3D"
+                                src="https://placekitten.com/640/360"
                                 style={{ width: '193px', height: '167px', objectFit: 'fill', borderRadius: '20%' }}
                             />
                         </div>
@@ -40,7 +40,7 @@ function Middle() {
                     <Col>
                         <CardGroup>
                             <Card>
-                                <Card.Img style={{height:'100%'}}
+                                <Card.Img style={{ height: '100%' }}
                                     variant="top"
                                     src="https://plus.unsplash.com/premium_photo-1682309543429-6aaa6d792dae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z3JhcGhzfGVufDB8fDB8fHww"
                                 />
