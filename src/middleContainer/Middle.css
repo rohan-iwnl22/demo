@@ -1,11 +1,10 @@
-
 .middle {
   background-color: #192042;
   color: white;
   border-top-right-radius: 60px;
   border-top-left-radius: 60px;
   padding: 20px;
-  margin-top: 2px;
+  margin-top: 30px;
 }
 
 .middle .cardImg {
@@ -29,4 +28,16 @@
 .middle span p {
   text-align: left;
   padding: 10px;
+}
+
+.lineGraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.donutGraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

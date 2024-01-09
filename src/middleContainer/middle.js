@@ -1,3 +1,5 @@
+import Donut from '../graphs/donutGraph';
+import LineGraph from '../graphs/lineGraph';
 import './Middle.css'
 import { Container, Row, Col, Card, CardGroup, Form } from 'react-bootstrap';
 
@@ -12,7 +14,7 @@ function Middle() {
                         <div className='cardImg'>
                             <Card.Img
                                 variant="top"
-                                src="https://placekitten.com/640/360"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbTARUXzSGvW92IbKIlYAmhlYg0keybYReTTH-96oCTBsWTCItKjnwZmU8EpEPS2COXtg&usqp=CAU"
                                 style={{ width: '193px', height: '167px', objectFit: 'fill', borderRadius: '20%' }}
                             />
                         </div>
@@ -40,16 +42,14 @@ function Middle() {
                     <Col>
                         <CardGroup>
                             <Card>
-                                <Card.Img style={{ height: '100%' }}
-                                    variant="top"
-                                    src="https://plus.unsplash.com/premium_photo-1682309543429-6aaa6d792dae?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Z3JhcGhzfGVufDB8fDB8fHww"
-                                />
+                                <div className='lineGraph'>
+                                    <LineGraph />
+                                </div>
                             </Card>
                             <Card>
-                                <Card.Img
-                                    variant="top"
-                                    src="https://media.istockphoto.com/id/1129901548/photo/coin-stack-step-down-graph-with-red-arrow-and-percent-icon-risk-management-business-financial.webp?b=1&s=170667a&w=0&k=20&c=HgKAxaxjr1gCZJv0VUgRLLZ077AjNMfdaaSnkHhO97Y="
-                                />
+                                <div className='donutGraph'>
+                                    <Donut></Donut>
+                                </div>
                             </Card>
                         </CardGroup>
                         {/* Text area replaces the last card */}
