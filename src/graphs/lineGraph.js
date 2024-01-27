@@ -13,12 +13,8 @@ const LineGraph = () => {
         },
         series: [
             {
-                name: "SEM-I",
+                // name: "SEM-I",
                 data: [30, 40, 45, 50, 49, 60, 70, 91]
-            },
-            {
-                name: "SEM-II",
-                data: [37, 45, 21, 69, 20, 58, 87, 74]
             }
         ]
     });
